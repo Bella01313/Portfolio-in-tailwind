@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="/Portfolio-in-tailwind/src/output.css">
+    <link rel="stylesheet" href="/Portfolio-in-tailwind/dist/styles.css">
+    
+
+</head>
+<body>
+    <nav class=" shadow-slate-200 overflow-hidden p-2 bg-orange-100 fixed w-full top-0 z-10 h-24 mb-4">
+        <div class="nav-main mx-auto py-5 flex items-center justify-between ">
+          <div class="flex items-center gap-2">
+            <img src="/Portfolio-in-tailwind/images/logo.png" alt="logo"  class="w-24 -mt-6"/>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#projects">Project</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- home section -->
+      <!-- <section>
+        <div class="head py-5 px-3 flex h-screen bg-slate-100" id="home">
+            <div class="text-black flex flex-col justify-center items-center w-full lg:w-3/4">
+                <h1 class="text-4xl text-center lg:text-left">Bella Ingabire
+                    <br>Frontend Developer
+                </h1>
+                <p class="text-lg text-center lg:text-left mt-5 text-red-300">
+                    Hello, My name is Bella Ingabire,
+                    <br> nice to meet you i would like to welcome you with my personal portfolio
+                </p>
+            </div>
+            <div class="hidden lg:block w-1/4 ">
+                <img src="/Tailwind-Project/images/Bella-removebg-preview.png" alt="" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section> -->
+
+     <!-- Home section -->
+     <!-- <section class="h-screen bg-slate-100">
+      <div class="head py-5 px-3 flex justify-center items-center h-full">
+          <div class="text-black flex flex-col justify-center items-center w-full lg:w-3/4">
+              <h1 class="text-4xl lg:text-left">Bella Ingabire
+                  <br>Frontend Developer
+              </h1>
+              <p class="text-lg lg:text-left mt-5 text-red-300">
+                  Hello, My name is Bella Ingabire,
+                  <br> nice to meet you i would like to welcome you with my personal portfolio
+              </p>
+          </div>
+      </div>
+  </section> -->
+
+  <!-- Welcome section -->
+  <section class="bg-slate-100 py-32 text-center h-screen" id="home">
+      <h1 class="text-3xl font-bold text-black">Welcome to My Portfolio</h1>
+      <p class="text-xl font-semibold text-black mt-4">I am Bella Ingabire</p>
+      <br> nice to meet you i would like to welcome you with my personal portfolio
+      <h5 class="text-black">Frontend Developer</h5>
+  </section>
+  <!-- about section -->
+
+ <section class="h-screen">
+  <div class=" bg-red-100 h-full flex flex-col justify-center items-center" id="about">
+      <h2 class="text-2xl font-bold text-black mb-4 border-b-2 hover:text-black cursor-pointer">About me</h2>
+      <p class="s text-black text-center">
+        As a Frontend developer, my role is to create visually appealing and
+        user-friendly website designs, collaborate with clients and other
+        professionals, and stay updated with design trends and
+        technologies to deliver effective and engaging web experiences.
+        I have a passion for solving complex problems and creating intuitive and user-friendly interfaces
+      </p>
+      <h3 class="text-2xl font-bold text-black mb-4 border-b-2 hover:text-black cursor-pointer">Skills</h3>
+      <div class="flex flex-wrap md:justify-between">
+          <div class="w-1/3 p-4">
+              <div class="bg-orange-300 rounded-full p-4 flex items-center justify-center mb-4">
+                  <i class="fas fa-code text-4xl text-white"></i>
+              </div>
+              <h4 class="text-xl font-bold text-black mb-2">HTML</h4>
+              <p class="text-gray-600">I have a strong foundation in HTML and can build well-structured and semantically correct websites.</p>
+          </div>
+          <div class="w-1/3 p-4">
+              <div class="bg-sky-300 rounded-full p-4 flex items-center justify-center mb-4">
+                  <i class="fab fa-css3 text-4xl text-white"></i>
+              </div>
+              <h4 class="text-xl font-bold text-black mb-2">CSS</h4>
+              <p class="text-gray-600">I have a strong understanding of CSS and can create visually appealing and responsive layouts.</p>
+          </div>
+          <div class="w-1/3 p-4">
+              <div class="bg-amber-200 rounded-full p-4 flex items-center justify-center mb-4">
+                  <i class="fab fa-js text-4xl text-white"></i>
+              </div>
+              <h4 class="text-xl font-bold text-black mb-2">JavaScript</h4>
+              <p class="text-gray-600">I have a strong understanding of JavaScript and have experience building web applications using various libraries and frameworks such as React and Angular</p>
+          </div>
+         
+  </div>
+  
+</section>
+
+<!-- Projects section -->
+
+<!-- <section class="h-screen">
+  <div class="projects bg-slate-100 text-white h-full flex flex-col justify-center items-center" id="projects">
+      <h2 class="text-3xl text-black">Projects</h2>
+      <p  class="text-black">Here are some of my projects on GitHub:</p>
+      <ul>
+          <li><a href="https://bella01313.github.io/BR-Architect/" class="text-black">Project 1</a></li>
+          <li><a href="https://bella01313.github.io/Food-website/" class="text-black">Project 2</a></li>
+          <li><a href="https://rest-countries-zeta.vercel.app/" class="text-black">Project 3</a></li>
+         
+      </ul>
+  </div>
+</section> -->
+
+<section class="bg-slate-100 p-8 h-screen" id="projects"><br><br>
+  <h2 class="text-2xl font-bold text-black mb-4 border-b-2 hover:text-black cursor-pointer text-center">My Projects</h2>
+  <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div class="bg-red-200 rounded-lg shadow-lg p-8 flex flex-col items-center hover:bg-amber-200">
+          <h3 class="text-xl font-bold text-black mb-2"><a href="https://rest-countries-zeta.vercel.app/" > Rest API Country</a></h3>
+          <p class="text-sm text-black mb-4">This project contains all information details on different countries.</p>
+      </div>
+      <div class="bg-red-200 rounded-lg shadow-lg p-8 flex flex-col items-center hover:bg-amber-200">
+       
+          <h3 class="text-xl font-bold text-black mb-2"><a href="https://bella01313.github.io/Age-calculator/">Age calculator</a> </h3>
+          <p class="text-sm text-black mb-4">this project able user can calculate his or her age</p>
+        
+      </div>
+      <div class="bg-red-200 rounded-lg shadow-lg p-8 flex flex-col items-center hover:bg-amber-200">
+          <h3 class="text-xl font-bold text-black mb-2"><a href="https://bella01313.github.io/Rock-Paper-Scissors/">Rock-Paper-Scissors</a></h3>
+          <p class="text-sm text-black mb-4">this project help user to change different type of play </p>
+  
+      </div>
+      <div class="bg-red-200 rounded-lg shadow-lg p-8 flex flex-col items-center hover:bg-amber-200">
+        <h3 class="text-xl font-bold text-black mb-2"><a href="https://bella01313.github.io/Random-Emoji/">Random Emoji</a></h3>
+        <p class="text-sm text-black mb-4">this project help user to change different emojis </p>
+
+    </div>
+    <div class="bg-red-200 rounded-lg shadow-lg p-8 flex flex-col items-center hover:bg-amber-200">
+      <h3 class="text-xl font-bold text-black mb-2"><a href="https://bella01313.github.io/Food-website/">Food Website</a></h3>
+      <p class="text-sm text-black mb-4">this project help user to change different type of play </p>
+
+  </div>
+  <div class="bg-red-200 rounded-lg shadow-lg p-8 flex flex-col items-center hover:bg-amber-200">
+    <h3 class="text-xl font-bold text-black mb-2"><a href="https://todo-app-rose-nine.vercel.app/">Todo App</a></h3>
+    <p class="text-sm text-black mb-4">this project help user to change different type of play </p>
+
+</div>
+      </div>
+      </section>
+
+<!-- Contact section -->
+<section class="h-screen">
+  <div class=" bg-red-100 text-black h-full flex flex-col justify-center items-center" id="contact">
+      <h3 class="text-2xl font-bold text-black mb-4 border-b-2 hover:text-black cursor-pointer">Contact</h3>
+      <p>Lets get in touch and talk about your next project.</p>
+      <form action="https://formspree.io/f/mdoqzdlp" method="POST" class="mt-4">
+        <label class="block">Full name:
+          <input type="text" name="name" class="block border border-gray-300 px-4 py-2 mt-2 rounded-md">
+        </label>
+          <label class="block">
+              Your email:
+              <input type="email" name="email" class="block border border-gray-300 px-4 py-2 mt-2 rounded-md">
+          </label>
+          <label class="block">
+              Your message:
+              <textarea name="message" class="block border border-gray-300 px-4 py-2 mt-2 rounded-md"></textarea>
+          </label>
+          <button type="submit" class="bg-red-200 text-white px-4 py-2 mt-2 rounded-md">Send</button>
+      </form>
+  </div>
+</section>
+     
+<footer class="bg-slate-400 p-4 mt-auto flex flex-col items-center sm:px-4"><br>
+  <p class="text-xs font-bold text-gray-600 mb-4 sm:text-base">Copyright &copy; 2024 My Portfolio</p>
+  <div class="container mx-auto flex flex-col items-center px-4">
+
+      <!-- <div class="flex items-center">
+          <i class="fas fa-envelope text-4xl text-gray-100 mr-4"></i>
+          <a href="ingabire.bella.muhizi@gmail.com" class="text-2xl font-bold text-gray-100 hover:text-gray-300">@bella01313</a>
+      </div>
+
+      <center>
+
+          <p class="text-gray-100 mt-4">Or you can find me on social media</p>
+      </center> -->
+      <div class="mt-4 flex">
+          <a href="https://twitter.com/_bella__13_"target="_blank"  class="mx-4 text-4xl font-bold text-gray-100 hover:text-black">
+              <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ingabire-muhizi-bella-23b7b2289/" target="_blank" class="mx-4 text-4xl font-bold text-gray-100 hover:text-black">
+              <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Bella01313?tab=repositories"target="_blank" class="mx-4 text-4xl font-bold text-gray-100 hover:text-black">
+              <i class="fab fa-github"></i>
+          </a>
+      </div>
+  </div>
+
+</footer>
+
+
+      <script src="/Portfolio-in-tailwind/dist/main.js"></script>
+</body>
+</html>
