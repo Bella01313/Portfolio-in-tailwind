@@ -30,7 +30,7 @@ body {
     color: black;
   }
   
-  /* .menu a {
+  .menu a {
     color: grey;
     letter-spacing: 0.1rem;
     display: block;
@@ -53,22 +53,22 @@ body {
   .show-menu {
     height: 10rem;
   }
-   */
   
-  /* .nav-main{
+  
+  .nav-main{
     padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
     overflow: hidden;
 
-  } */
-  /* .nav-header {
+  }
+  .nav-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-  } */
+  }
 
   .head {
     /* border: 1px solid yellow; */
